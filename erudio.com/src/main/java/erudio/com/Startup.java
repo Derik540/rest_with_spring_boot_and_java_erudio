@@ -1,13 +1,13 @@
-package com.erudio.com.erudio;
+package erudio.com;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class Startup {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(Startup.class, args);
 	}
 
 }
